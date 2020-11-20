@@ -91,7 +91,7 @@ void        PluginLoader__UpdateMenu(void)
         "Plugin Loader: [Enabled]"
     };
 
-    rosalinaMenu.items[isN3DS + 2].title = status[g_isEnabled];
+    rosalinaMenu.items[2].title = status[g_isEnabled];
 }
 
 static Result     MapPluginInProcess(Handle proc, u32 size)
